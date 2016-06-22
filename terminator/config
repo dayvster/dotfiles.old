@@ -1,0 +1,27 @@
+[global_config]
+  enabled_plugins = InactivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 0
+  scroll_tabbar = True
+  title_font = Monospace 9
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#362630"
+    background_darkness = 1.2
+    background_image = None
+    font = Terminus 10
+    foreground_color = "#d0d0d0"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#e57213:#d2240b:#e29127:#d3d7cf:#555753:#e32d2d:#4392dd:#fce94f:#e2962c:#ce6a3f:#34e2e2:#eeeeec"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
